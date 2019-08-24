@@ -1,0 +1,15 @@
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\UdemyCalculator\bin\Debug\UdemyCalculator.exe.config
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\UdemyCalculator\bin\Debug\UdemyCalculator.exe
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\UdemyCalculator\bin\Debug\UdemyCalculator.pdb
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\UdemyCalculator\obj\Debug\UdemyCalculator.csprojAssemblyReference.cache
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\UdemyCalculator\obj\Debug\MainWindow.g.cs
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\UdemyCalculator\obj\Debug\App.g.cs
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\UdemyCalculator\obj\Debug\UdemyCalculator_MarkupCompile.cache
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\UdemyCalculator\obj\Debug\UdemyCalculator_MarkupCompile.lref
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\UdemyCalculator\obj\Debug\MainWindow.baml
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\UdemyCalculator\obj\Debug\UdemyCalculator.g.resources
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\UdemyCalculator\obj\Debug\UdemyCalculator.Properties.Resources.resources
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\UdemyCalculator\obj\Debug\UdemyCalculator.csproj.GenerateResource.cache
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\UdemyCalculator\obj\Debug\UdemyCalculator.csproj.CoreCompileInputs.cache
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\UdemyCalculator\obj\Debug\UdemyCalculator.exe
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\UdemyCalculator\obj\Debug\UdemyCalculator.pdb
