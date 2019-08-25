@@ -13,3 +13,7 @@ C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\UdemyCalculator\obj\Debug\UdemyC
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\UdemyCalculator\obj\Debug\UdemyCalculator.csproj.CoreCompileInputs.cache
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\UdemyCalculator\obj\Debug\UdemyCalculator.exe
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\UdemyCalculator\obj\Debug\UdemyCalculator.pdb
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\UdemyCalculator\bin\Debug\nunit.framework.dll
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\UdemyCalculator\bin\Debug\nunit.framework.pdb
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\UdemyCalculator\bin\Debug\nunit.framework.xml
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\UdemyCalculator\obj\Debug\UdemyCalculator.csproj.CopyComplete

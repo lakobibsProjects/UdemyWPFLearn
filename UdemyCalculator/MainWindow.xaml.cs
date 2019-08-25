@@ -20,8 +20,9 @@ namespace UdemyCalculator
     /// </summary>
     public partial class MainWindow : Window
     {
-        double lastNumber, result;
+        double lastNumber, result, firstNumber;
         SelectedOperator SelectedOperator;
+        bool percantageClicked;
         public MainWindow()
         {
             InitializeComponent();            
@@ -32,49 +33,50 @@ namespace UdemyCalculator
         {
             double newNumber;
             if (double.TryParse(resultLabel.Content.ToString(), out newNumber))
-            {
+            {                          
                 switch (SelectedOperator)
                 {
                     case SelectedOperator.Addition:
-                        result = SimpleMath.Add(lastNumber, newNumber);
+                        if (percantageClicked)
+                            newNumber = firstNumber * newNumber;
+                        result = SimpleMath.Add(firstNumber, newNumber);
                         break;
                     case SelectedOperator.Substraction:
-                        result = SimpleMath.Substraction(lastNumber, newNumber);
+                        if (percantageClicked)
+                            newNumber = firstNumber * newNumber;
+                        result = SimpleMath.Substraction(firstNumber, newNumber);
                         break;
                     case SelectedOperator.Multiplication:
-                        result = SimpleMath.Multiplication(lastNumber, newNumber);
+                        result = SimpleMath.Multiplication(firstNumber, newNumber);
                         break;
                     case SelectedOperator.Division:
-                        result = SimpleMath.Division(lastNumber, newNumber);
+                        result = SimpleMath.Division(firstNumber, newNumber);
                         break;
                 }
-                resultLabel.Content = result;
+                percantageClicked = false;
+                resultLabel.Content = result;                
             }
         }
 
         private void PercentageButton_Click(object sender, RoutedEventArgs e)
         {
             if (double.TryParse(resultLabel.Content.ToString(), out lastNumber))
-                lastNumber = lastNumber / 100;
-            resultLabel.Content = lastNumber;
+            {
+                resultLabel.Content = lastNumber / 100;
+                percantageClicked = true;
+            }                
         }
 
-        private void NegativeButton_Click(object sender, RoutedEventArgs e)
-        {
-            if(double.TryParse(resultLabel.Content.ToString(), out lastNumber))
-                lastNumber = -lastNumber;
-            resultLabel.Content = lastNumber;
-        }
-
-        private void AcButton_Click(object sender, RoutedEventArgs e)
-        {
-            resultLabel.Content = 0;
-        }
         private void OperationButton_Click(object sender, RoutedEventArgs e)
         {
-            if (double.TryParse(resultLabel.Content.ToString(), out lastNumber))            
-                resultLabel.Content = "0";
+            percantageClicked = false;
             
+            if (double.TryParse(resultLabel.Content.ToString(), out lastNumber))
+            {
+                firstNumber = double.Parse(resultLabel.Content.ToString());
+                resultLabel.Content = "0";
+            }            
+                            
             if(sender == divisionButton)
                 SelectedOperator = SelectedOperator.Division;
             if (sender == multiplicationButton)
@@ -101,6 +103,18 @@ namespace UdemyCalculator
                 resultLabel.Content = $"{resultLabel.Content},";
         }
 
+        private void NegativeButton_Click(object sender, RoutedEventArgs e)
+        {
+            if(double.TryParse(resultLabel.Content.ToString(), out lastNumber))
+                lastNumber = -lastNumber;
+            resultLabel.Content = lastNumber;
+        }
+
+        private void AcButton_Click(object sender, RoutedEventArgs e)
+        {
+            resultLabel.Content = 0;
+            lastNumber = 0;
+        }
 
     }
 

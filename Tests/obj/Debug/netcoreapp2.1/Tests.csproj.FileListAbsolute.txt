@@ -1,0 +1,8 @@
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\Tests\bin\Debug\netcoreapp2.1\Tests.deps.json
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\Tests\bin\Debug\netcoreapp2.1\Tests.runtimeconfig.json
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\Tests\bin\Debug\netcoreapp2.1\Tests.runtimeconfig.dev.json
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\Tests\bin\Debug\netcoreapp2.1\Tests.dll
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\Tests\obj\Debug\netcoreapp2.1\Tests.csprojAssemblyReference.cache
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\Tests\obj\Debug\netcoreapp2.1\Tests.csproj.CoreCompileInputs.cache
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\Tests\obj\Debug\netcoreapp2.1\Tests.AssemblyInfoInputs.cache
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\Tests\obj\Debug\netcoreapp2.1\Tests.AssemblyInfo.cs
