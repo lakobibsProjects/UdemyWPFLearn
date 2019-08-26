@@ -8,8 +8,9 @@
         <SolidColorBrush x:Key="GeneralWhite" Color="White"/>
         <SolidColorBrush x:Key="IvoryWhite" Color="#FFFFF0"/>
 
-        <Style x:Key="GeneralButton_Style" TargetType="Button">
+        <Style x:Key="generalButtonStyle" TargetType="Button">
             <Setter Property="Margin" Value="5"/>
+            <Setter Property="FontSize" Value="22"/>
         </Style>
     </Application.Resources>
 </Application>

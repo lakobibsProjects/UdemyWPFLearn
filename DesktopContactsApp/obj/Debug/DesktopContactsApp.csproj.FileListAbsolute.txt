@@ -1,0 +1,17 @@
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\bin\Debug\DesktopContactsApp.exe.config
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\bin\Debug\DesktopContactsApp.exe
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\bin\Debug\DesktopContactsApp.pdb
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\obj\Debug\DesktopContactsApp.csprojAssemblyReference.cache
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\obj\Debug\MainWindow.g.cs
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\obj\Debug\NewContactWindow.g.cs
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\obj\Debug\App.g.cs
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\obj\Debug\DesktopContactsApp_MarkupCompile.cache
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\obj\Debug\DesktopContactsApp_MarkupCompile.lref
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\obj\Debug\MainWindow.baml
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\obj\Debug\NewContactWindow.baml
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\obj\Debug\DesktopContactsApp.g.resources
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\obj\Debug\DesktopContactsApp.Properties.Resources.resources
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\obj\Debug\DesktopContactsApp.csproj.GenerateResource.cache
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\obj\Debug\DesktopContactsApp.csproj.CoreCompileInputs.cache
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\obj\Debug\DesktopContactsApp.exe
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\obj\Debug\DesktopContactsApp.pdb

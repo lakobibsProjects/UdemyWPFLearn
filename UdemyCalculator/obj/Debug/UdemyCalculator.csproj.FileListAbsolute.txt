@@ -17,3 +17,4 @@ C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\UdemyCalculator\bin\Debug\nunit.
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\UdemyCalculator\bin\Debug\nunit.framework.xml
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\UdemyCalculator\obj\Debug\UdemyCalculator.csproj.CopyComplete
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\UdemyCalculator\obj\Debug\App.baml
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\UdemyCalculator\obj\Debug\UdemyCalculator.csprojAssemblyReference.cache
