@@ -4,6 +4,12 @@
              xmlns:local="clr-namespace:UdemyCalculator"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <SolidColorBrush x:Key="GeneralGray" Color="#555555"/>
+        <SolidColorBrush x:Key="GeneralWhite" Color="White"/>
+        <SolidColorBrush x:Key="IvoryWhite" Color="#FFFFF0"/>
+
+        <Style x:Key="GeneralButton_Style" TargetType="Button">
+            <Setter Property="Margin" Value="5"/>
+        </Style>
     </Application.Resources>
 </Application>

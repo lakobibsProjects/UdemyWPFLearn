@@ -6,3 +6,6 @@ C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\Tests\obj\Debug\netcoreapp2.1\Te
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\Tests\obj\Debug\netcoreapp2.1\Tests.csproj.CoreCompileInputs.cache
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\Tests\obj\Debug\netcoreapp2.1\Tests.AssemblyInfoInputs.cache
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\Tests\obj\Debug\netcoreapp2.1\Tests.AssemblyInfo.cs
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\Tests\bin\Debug\netcoreapp2.1\Tests.pdb
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\Tests\obj\Debug\netcoreapp2.1\Tests.dll
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\Tests\obj\Debug\netcoreapp2.1\Tests.pdb

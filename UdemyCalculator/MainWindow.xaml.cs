@@ -29,7 +29,7 @@ namespace UdemyCalculator
             equalButton.Click += EqualButton_Click;
         }
 
-        private void EqualButton_Click(object sender, RoutedEventArgs e)
+        private void EqualButton_Click(object sender, RoutedEventArgs e)            //DRY!!! percantage chalenge
         {
             double newNumber;
             if (double.TryParse(resultLabel.Content.ToString(), out newNumber))
@@ -42,7 +42,7 @@ namespace UdemyCalculator
                         result = SimpleMath.Add(firstNumber, newNumber);
                         break;
                     case SelectedOperator.Substraction:
-                        if (percantageClicked)
+                        if (percantageClicked)              
                             newNumber = firstNumber * newNumber;
                         result = SimpleMath.Substraction(firstNumber, newNumber);
                         break;
@@ -113,6 +113,7 @@ namespace UdemyCalculator
         private void AcButton_Click(object sender, RoutedEventArgs e)
         {
             resultLabel.Content = 0;
+            result = 0;
             lastNumber = 0;
         }
 

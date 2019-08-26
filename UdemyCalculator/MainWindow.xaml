@@ -7,20 +7,27 @@
         mc:Ignorable="d"
         Title="Udemy Calculator" Height="525" Width="350">
     <Window.Resources>
-        <Style TargetType="Button">
-            <Setter Property="Margin" Value="5"/>
+        
+        <Style x:Key="OperationButton_Style" TargetType="Button" BasedOn="{StaticResource GeneralButton_Style}">
+            <Setter Property="Background" Value="Orange"/>
+            <Setter Property="Foreground" Value="{StaticResource GeneralWhite}"/>
+        </Style>
+        <Style x:Key="NumberButton_Style" TargetType="Button">
+            <Setter Property="Background" Value="{StaticResource GeneralGray}"/>
+            <Setter Property="Foreground" Value="{StaticResource GeneralWhite}"/>
         </Style>
     </Window.Resources>
-    <Grid Margin="10">
+    <Grid Margin="10" Background="{StaticResource IvoryWhite}">
         <Grid.RowDefinitions>
             <RowDefinition Height="1*"/>
             <RowDefinition Height="5*"/>
         </Grid.RowDefinitions>
-        <Label x:Name="resultLabel" Content="0"
+        <Label x:Name="resultLabel"               
+               Content="0"
                HorizontalAlignment="Right"
                VerticalAlignment="Center"
                FontSize="60"/>
-        <Grid Grid.Row="1">
+        <Grid Grid.Row="1" Background="{StaticResource IvoryWhite}">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
@@ -35,93 +42,111 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             <Button x:Name="acButton"
+                Style="{StaticResource OperationButton_Style}"
                 Click="AcButton_Click"
                 Content="AC"
                 Grid.Row="0"/>
             <Button x:Name="negativeButton"
+                Style="{StaticResource OperationButton_Style}"
                 Click="NegativeButton_Click"
                 Content="+/-"
                 Grid.Row="0"
                 Grid.Column="1"/>
             <Button x:Name="percentageButton"
+                    Style="{StaticResource OperationButton_Style}"
                 Click="PercentageButton_Click"
                 Content="%"
                 Grid.Row="0"
                 Grid.Column="2"/>
             <Button x:Name="divisionButton"
+                    Style="{StaticResource OperationButton_Style}"
                 Click="OperationButton_Click"
                 Content="/"
                 Grid.Row="0"
                 Grid.Column="3"/>
             <Button x:Name="sevenButton"
+                    Style="{StaticResource NumberButton_Style}"
                 Click="NumberButton_Click"
                 Content="7"                
-                Margin="5"
                 Grid.Row="1"/>
             <Button x:Name="eightButton"
+                    Style="{StaticResource NumberButton_Style}"
                 Click="NumberButton_Click"
                 Content="8"
                 Grid.Row="1"
                 Grid.Column="1"/>
             <Button x:Name="nineButton"
+                    Style="{StaticResource NumberButton_Style}"
                 Click="NumberButton_Click"
                 Content="9"
                 Grid.Row="1"
                 Grid.Column="2"/>
             <Button x:Name="multiplicationButton"
+                    Style="{StaticResource OperationButton_Style}"
                 Click="OperationButton_Click"
                 Content="*"
                 Grid.Row="1"
                 Grid.Column="3"/>
             <Button x:Name="fourButton"
+                    Style="{StaticResource NumberButton_Style}"
                 Click="NumberButton_Click"
                 Content="4"
                 Grid.Row="2"/>
             <Button x:Name="fiveButton"
+                    Style="{StaticResource NumberButton_Style}"
                 Click="NumberButton_Click"
                 Content="5"
                 Grid.Row="2"
                 Grid.Column="1"/>
             <Button x:Name="sixButton"
+                    Style="{StaticResource NumberButton_Style}"
                 Click="NumberButton_Click"
                 Content="6"
                 Grid.Row="2"
                 Grid.Column="2"/>
             <Button x:Name="minusButton"
+                    Style="{StaticResource OperationButton_Style}"
                 Click="OperationButton_Click"
                 Content="-"
                 Grid.Row="2"
                 Grid.Column="3"/>
             <Button x:Name="oneButton"
+                    Style="{StaticResource NumberButton_Style}"
                 Click="NumberButton_Click"
                 Content="1"
                 Grid.Row="3"/>
             <Button x:Name="twoButton"
+                    Style="{StaticResource NumberButton_Style}"
                 Click="NumberButton_Click"
                 Content="2"
                 Grid.Row="3"
                 Grid.Column="1"/>
             <Button x:Name="threeButton"
+                    Style="{StaticResource NumberButton_Style}"
                 Click="NumberButton_Click"
                 Content="3"
                 Grid.Row="3"
                 Grid.Column="2"/>
             <Button x:Name="plusButton"
+                    Style="{StaticResource OperationButton_Style}"
                 Click="OperationButton_Click"
                 Content="+"
                 Grid.Row="3"
                 Grid.Column="3"/>
             <Button x:Name="zeroButton"
+                    Style="{StaticResource NumberButton_Style}"
                 Click="NumberButton_Click"
                 Content="0"
                 Grid.Row="4"
                 Grid.ColumnSpan="2"/>
             <Button x:Name="pointButton"
+                    Style="{StaticResource NumberButton_Style}"
                 Click="PointButton_Click"
                 Content="."
                 Grid.Row="4"
                 Grid.Column="2"/>
             <Button x:Name="equalButton" 
+                    Style="{StaticResource OperationButton_Style}"
                 Content="="
                 Grid.Row="4"
                 Grid.Column="3"/>

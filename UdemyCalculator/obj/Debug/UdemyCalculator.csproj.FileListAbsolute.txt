@@ -1,7 +1,6 @@
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\UdemyCalculator\bin\Debug\UdemyCalculator.exe.config
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\UdemyCalculator\bin\Debug\UdemyCalculator.exe
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\UdemyCalculator\bin\Debug\UdemyCalculator.pdb
-C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\UdemyCalculator\obj\Debug\UdemyCalculator.csprojAssemblyReference.cache
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\UdemyCalculator\obj\Debug\MainWindow.g.cs
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\UdemyCalculator\obj\Debug\App.g.cs
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\UdemyCalculator\obj\Debug\UdemyCalculator_MarkupCompile.cache
@@ -17,3 +16,4 @@ C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\UdemyCalculator\bin\Debug\nunit.
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\UdemyCalculator\bin\Debug\nunit.framework.pdb
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\UdemyCalculator\bin\Debug\nunit.framework.xml
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\UdemyCalculator\obj\Debug\UdemyCalculator.csproj.CopyComplete
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\UdemyCalculator\obj\Debug\App.baml
