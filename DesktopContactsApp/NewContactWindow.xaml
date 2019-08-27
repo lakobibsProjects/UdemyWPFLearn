@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DesktopContactsApp"
         mc:Ignorable="d"
-        Title="New Contact" Height="162.832" Width="400">
+        Title="New Contact" Height="163" Width="400">
     <Window.Resources>
         <Style  x:Key="internalStackPanelStyle" TargetType="Grid">
             <Setter Property="Margin" Value="0,3"/>

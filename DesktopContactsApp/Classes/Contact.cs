@@ -34,7 +34,12 @@ namespace DesktopContactsApp.Classes
             get { return name; }
             set { name = value; }
         }
-        #endregion Properties
 
+
+        #endregion Properties
+        public override string ToString()
+        {
+            return $"{Name}, e-mail: {EMail}, phone number: {Phone}";
+        }
     }
 }
