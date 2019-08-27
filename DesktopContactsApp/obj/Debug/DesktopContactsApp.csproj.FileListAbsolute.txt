@@ -100,6 +100,7 @@ C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\bin\Debug\Sys
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\bin\Debug\System.Xml.XPath.dll
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\bin\Debug\System.Xml.XPath.XDocument.dll
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\bin\Debug\SQLite-net.dll
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\bin\Debug\SQLitePCLRaw.batteries_green.dll
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\bin\Debug\SQLitePCLRaw.batteries_v2.dll
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\bin\Debug\SQLitePCLRaw.core.dll
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\bin\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
@@ -115,13 +116,19 @@ C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\bin\Debug\Sys
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\bin\Debug\System.Memory.xml
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\bin\Debug\System.Numerics.Vectors.xml
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\obj\Debug\DesktopContactsApp.csprojAssemblyReference.cache
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\obj\Debug\DesktopContactsApp.exe.config
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\obj\Debug\ContactDetailsWindow.g.cs
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\obj\Debug\Controls\ContactControl.g.cs
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\obj\Debug\MainWindow.g.cs
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\obj\Debug\NewContactWindow.g.cs
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\obj\Debug\App.g.cs
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\obj\Debug\DesktopContactsApp_Content.g.cs
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\obj\Debug\DesktopContactsApp_MarkupCompile.cache
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\obj\Debug\DesktopContactsApp_MarkupCompile.lref
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\obj\Debug\ContactDetailsWindow.baml
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\obj\Debug\Controls\ContactControl.baml
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\obj\Debug\MainWindow.baml
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\obj\Debug\NewContactWindow.baml
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\obj\Debug\DesktopContactsApp.g.resources
@@ -131,7 +138,3 @@ C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\obj\Debug\Des
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\obj\Debug\DesktopContactsApp.csproj.CopyComplete
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\obj\Debug\DesktopContactsApp.exe
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\obj\Debug\DesktopContactsApp.pdb
-C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\bin\Debug\SQLitePCLRaw.batteries_green.dll
-C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\obj\Debug\DesktopContactsApp.csprojAssemblyReference.cache
-C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\obj\Debug\ContactDetailsWindow.g.cs
-C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\DesktopContactsApp\obj\Debug\ContactDetailsWindow.baml
