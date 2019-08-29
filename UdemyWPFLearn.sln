@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesktopContactsApp", "Deskt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LandmarkAI", "LandmarkAI\LandmarkAI.csproj", "{42F413AF-EF36-494A-9BB8-CF19D00EC599}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherAppMVVM", "WeatherAppMVVM\WeatherAppMVVM.csproj", "{61A3492C-AE9D-4C51-BFE7-D95BE9357542}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{42F413AF-EF36-494A-9BB8-CF19D00EC599}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42F413AF-EF36-494A-9BB8-CF19D00EC599}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42F413AF-EF36-494A-9BB8-CF19D00EC599}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61A3492C-AE9D-4C51-BFE7-D95BE9357542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61A3492C-AE9D-4C51-BFE7-D95BE9357542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61A3492C-AE9D-4C51-BFE7-D95BE9357542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61A3492C-AE9D-4C51-BFE7-D95BE9357542}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

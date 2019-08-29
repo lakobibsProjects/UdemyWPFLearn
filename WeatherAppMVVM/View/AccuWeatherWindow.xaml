@@ -1,0 +1,56 @@
+﻿<Window x:Class="WeatherAppMVVM.View.AccuWeatherWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vm="clr-namespace:WeatherAppMVVM.ViewModel"
+        xmlns:local="clr-namespace:WeatherAppMVVM.View"
+        mc:Ignorable="d"
+        Title="AccuWeatherWindow" Height="450" Width="400">
+    <Window.Resources>
+        <vm:AccuWeatherVM x:Key="vm"/>
+    </Window.Resources>
+    <Grid DataContext="{StaticResource vm}">
+        <StackPanel Margin="10"
+                    DataContext="{Binding Weather.DailyForecasts}">
+            <TextBox Text="{Binding Source={StaticResource vm}, 
+                     Path=Query, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+            <ListView Height="100"
+                      SelectedItem="{Binding Source={StaticResource vm}, Path=SelectedResult}"
+                      ItemsSource="{Binding Source={StaticResource vm}, Path=Cities}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding  LocalizedName}"/>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <TextBlock Text=""
+                       Margin="0 20 0 0"
+                       FontSize="20"
+                       FontWeight="Bold"/>
+            <ListView Margin="0 30 0 0"
+                      ItemsSource="{Binding Weather.DailyForecasts}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Margin="0 10">
+                            <TextBlock Text="{Binding Date, StringFormat='{}{0:m}'}"
+                                       FontSize="20"
+                                       FontWeight="Bold"/>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="{Binding Temperature.Maximum.Value}"
+                                       Margin="0 0 10 0"
+                                       FontSize="20"
+                                       FontWeight="Bold"/>
+                                <TextBlock Text="{Binding Temperature.Minimum.Value}"
+                                       Margin="0 0 10 0"
+                                       FontSize="20"
+                                       FontWeight="Bold"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackPanel>
+
+    </Grid>
+</Window>

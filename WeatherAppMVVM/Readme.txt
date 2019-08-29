@@ -1,0 +1,2 @@
+﻿1. Underground based part is useless becouse Weatherunderground.com change fuctionality and now requires autorization and noncostless registration.
+2. Accu based part require upgrade to usefull version. This has been later.
