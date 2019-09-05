@@ -1,1 +1,10 @@
 ﻿1. Complete all fuctionality
+	+visibility login grid and collapsed register on default
+	*delete notebook
+	*delete note
+	*update note
+2. Debug
+	*close login window/application on click of close mark
+3. Clear codebehinde
+	*LoginWindow
+	*NoteWindow

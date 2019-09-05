@@ -37,3 +37,4 @@ C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\NotesApp\obj\Debug\NotesApp.cspr
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\NotesApp\obj\Debug\NotesApp.csproj.CopyComplete
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\NotesApp\obj\Debug\NotesApp.exe
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\NotesApp\obj\Debug\NotesApp.pdb
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\NotesApp\obj\Debug\NotesApp.csprojAssemblyReference.cache

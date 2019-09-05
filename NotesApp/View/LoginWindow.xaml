@@ -18,7 +18,7 @@
           VerticalAlignment="Center">
         <StackPanel x:Name="loginStackPanel"
                     Margin="20"
-                    Visibility="Collapsed">
+                    Visibility="Visible">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
@@ -44,7 +44,8 @@
                     Margin="1 5"/>
         </StackPanel>
         <StackPanel x:Name="registerStackPanel"
-                    Margin="20">
+                    Margin="20"
+                    Visibility="Collapsed">
             <TextBlock Margin="5" 
                        HorizontalAlignment="Center"
                        FontSize="16">
