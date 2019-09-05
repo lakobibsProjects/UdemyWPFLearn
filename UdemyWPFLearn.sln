@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdemyCalculator", "UdemyCalculator\UdemyCalculator.csproj", "{BBE9399B-B130-4044-849F-DE67FF651FFF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{D144EA55-F8EF-4475-8A8F-CD15538BEEA6}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesktopContactsApp", "DesktopContactsApp\DesktopContactsApp.csproj", "{08FF021A-069E-4C23-86D9-492657D599C4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LandmarkAI", "LandmarkAI\LandmarkAI.csproj", "{42F413AF-EF36-494A-9BB8-CF19D00EC599}"
@@ -14,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherAppMVVM", "WeatherAppMVVM\WeatherAppMVVM.csproj", "{61A3492C-AE9D-4C51-BFE7-D95BE9357542}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotesApp", "NotesApp\NotesApp.csproj", "{A553EE86-70E0-4428-8869-A1DA76401F3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSSReader", "RSSReader\RSSReader.csproj", "{F882B6F6-941B-4AB9-9C70-1E033844AEAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +25,6 @@ Global
 		{BBE9399B-B130-4044-849F-DE67FF651FFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBE9399B-B130-4044-849F-DE67FF651FFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBE9399B-B130-4044-849F-DE67FF651FFF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D144EA55-F8EF-4475-8A8F-CD15538BEEA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D144EA55-F8EF-4475-8A8F-CD15538BEEA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D144EA55-F8EF-4475-8A8F-CD15538BEEA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D144EA55-F8EF-4475-8A8F-CD15538BEEA6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{08FF021A-069E-4C23-86D9-492657D599C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{08FF021A-069E-4C23-86D9-492657D599C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08FF021A-069E-4C23-86D9-492657D599C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +41,10 @@ Global
 		{A553EE86-70E0-4428-8869-A1DA76401F3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A553EE86-70E0-4428-8869-A1DA76401F3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A553EE86-70E0-4428-8869-A1DA76401F3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F882B6F6-941B-4AB9-9C70-1E033844AEAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F882B6F6-941B-4AB9-9C70-1E033844AEAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F882B6F6-941B-4AB9-9C70-1E033844AEAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F882B6F6-941B-4AB9-9C70-1E033844AEAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,13 +3,17 @@ C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\NotesApp\bin\Debug\x64\e_sqlite3
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\NotesApp\bin\Debug\NotesApp.exe.config
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\NotesApp\bin\Debug\NotesApp.exe
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\NotesApp\bin\Debug\NotesApp.pdb
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\NotesApp\bin\Debug\Microsoft.Expression.Interactions.dll
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\NotesApp\bin\Debug\SQLite-net.dll
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\NotesApp\bin\Debug\SQLitePCLRaw.batteries_green.dll
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\NotesApp\bin\Debug\SQLitePCLRaw.batteries_v2.dll
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\NotesApp\bin\Debug\SQLitePCLRaw.core.dll
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\NotesApp\bin\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\NotesApp\bin\Debug\System.Windows.Interactivity.dll
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\NotesApp\bin\Debug\Microsoft.Expression.Interactions.xml
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\NotesApp\bin\Debug\SQLite-net.pdb
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\NotesApp\bin\Debug\SQLite-net.xml
+C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\NotesApp\bin\Debug\System.Windows.Interactivity.xml
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\NotesApp\obj\Debug\Interop.SpeechLib.dll
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\NotesApp\obj\Debug\NotesApp.csproj.ResolveComReference.cache
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\NotesApp\obj\Debug\View\LoginWindow.g.cs
@@ -33,8 +37,3 @@ C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\NotesApp\obj\Debug\NotesApp.cspr
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\NotesApp\obj\Debug\NotesApp.csproj.CopyComplete
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\NotesApp\obj\Debug\NotesApp.exe
 C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\NotesApp\obj\Debug\NotesApp.pdb
-C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\NotesApp\obj\Debug\NotesApp.csprojAssemblyReference.cache
-C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\NotesApp\bin\Debug\Microsoft.Expression.Interactions.dll
-C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\NotesApp\bin\Debug\System.Windows.Interactivity.dll
-C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\NotesApp\bin\Debug\Microsoft.Expression.Interactions.xml
-C:\Projects\C#\UdemyLearnProjects\UdemyWPFLearn\NotesApp\bin\Debug\System.Windows.Interactivity.xml

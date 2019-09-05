@@ -1,0 +1,65 @@
+﻿using PropertyChanged;
+using System;
+using System.Collections.Generic;
+using System.Globalization;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Xml.Serialization;
+
+namespace RSSReader.Model
+{
+    [AddINotifyPropertyChangedInterfaceAttribute]
+    public class CData
+    {
+        public string ActualString { get; set; }
+    }
+
+    [AddINotifyPropertyChangedInterfaceAttribute]
+    [XmlRoot(ElementName = "item")]
+    public class Item
+    {
+        [XmlElement(ElementName = "title")]
+        public string Title { get; set; }
+        [XmlElement(ElementName = "description")]
+        public string Description { get; set; }
+        [XmlElement(ElementName = "link")]
+        public string Link { get; set; }
+        private string pubDate;
+        [XmlElement(ElementName = "pubDate")]
+        public string PubDate
+        {
+            get { return pubDate; }
+            set
+            {
+                pubDate = value;
+                PublishedDate = DateTime.ParseExact(pubDate, "ddd, dd MMM yyyy HH:mm:ss GMT", CultureInfo.InvariantCulture);
+            }
+        }
+
+        public DateTime PublishedDate { get; set; }
+        [XmlElement(ElementName = "creator", Namespace = "http://purl.org/dc/elements/1.1/")]
+        public string Creator { get; set; }
+    }
+
+    [AddINotifyPropertyChangedInterfaceAttribute]
+    [XmlRoot(ElementName = "channel")]
+    public class Channel
+    {
+        [XmlElement(ElementName = "item")]
+        public List<Item> Item { get; set; }
+
+        [XmlElement(ElementName = "link")]
+        public string Link { get; set; }
+    }
+
+    [AddINotifyPropertyChangedInterfaceAttribute]
+    [XmlRoot(ElementName = "rss")]
+    public class FinZenBlog
+    {
+        [XmlElement(ElementName = "channel")]
+        public Channel Channel { get; set; }
+    }
+
+
+}
