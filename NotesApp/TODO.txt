@@ -4,7 +4,8 @@
 	*delete note
 	*update note
 2. Debug
-	*close login window/application on click of close mark
+	+close login window/application on click of close mark
+	*close notewinodw when loginwindow is active
 3. Clear codebehinde
 	*LoginWindow
 	*NoteWindow

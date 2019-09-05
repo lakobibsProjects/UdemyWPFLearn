@@ -31,6 +31,8 @@ namespace NotesApp.View
 
         private void Vm_HasLoggedIn(object sender, EventArgs e)
         {
+            Window noteWindow = new NoteWindow();
+            noteWindow.Show();           
             this.Close();
         }
 
@@ -46,9 +48,5 @@ namespace NotesApp.View
             loginStackPanel.Visibility = Visibility.Collapsed;
         }
 
-        protected override void OnClosing(System.ComponentModel.CancelEventArgs e)
-        {
-            Application.Current.Shutdown();
-        }
     }
 }
