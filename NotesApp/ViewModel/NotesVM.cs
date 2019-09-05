@@ -7,17 +7,25 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Input;
 
 namespace NotesApp.ViewModel
 {
     [AddINotifyPropertyChangedInterfaceAttribute]
     public class NotesVM
     {
+        private Note note;
         public bool IsEditing { get; set; }
         public ObservableCollection<Notebook> Notebooks { get; set; }
-        public event EventHandler SelectedNotedChanged;
 
-        private Note note;
+        public event EventHandler SelectedNotedChanged;
+        public ObservableCollection<Note> Notes { get; set; }
+        public NewNotebookCommand NewNotebookCommand { get; set; }
+        public NewNoteCommand NewNoteCommand { get; set; }
+        public BeginEditCommand BeginEditCommand { get; set; }
+        public HasEditedCommand HasEditedCommand { get; set; }
+        public DeleteNotebookCommand DeleteNotebookCommand { get; set; }
+        public DeleteNoteCommand DeleteNoteCommand { get; set; }
 
         public Note SelectedNote
         {
@@ -41,12 +49,6 @@ namespace NotesApp.ViewModel
                 ReadNotes();
             }
         }
-        public ObservableCollection<Note> Notes { get; set; }
-
-        public NewNotebookCommand NewNotebookCommand { get; set; }
-        public NewNoteCommand NewNoteCommand { get; set; }
-        public BeginEditCommand BeginEditCommand { get; set; }
-        public HasEditedCommand HasEditedCommand { get; set; }
 
         public NotesVM()
         {
@@ -56,6 +58,8 @@ namespace NotesApp.ViewModel
             NewNotebookCommand = new NewNotebookCommand(this);
             BeginEditCommand = new BeginEditCommand(this);
             HasEditedCommand = new HasEditedCommand(this);
+            DeleteNotebookCommand = new DeleteNotebookCommand(this);
+            DeleteNoteCommand = new DeleteNoteCommand(this);
 
             Notebooks = new ObservableCollection<Notebook>();
             Notes = new ObservableCollection<Note>();
@@ -124,14 +128,8 @@ namespace NotesApp.ViewModel
                         //SelectedBook = Notebooks.FirstOrDefault();
 
                     }
-                    catch(StackOverflowException ex)
-                    {
-
-                    }
-                    catch(Exception ex)
-                    {
-
-                    }
+                    catch(StackOverflowException) { } //TODO handle this Exception
+                    catch(Exception ex) { } //TODO handle this Exception
                 }
             }
         }
@@ -140,7 +138,25 @@ namespace NotesApp.ViewModel
         {
             IsEditing = true;
         }
+                
 
+        public void DeleteNotebook(Notebook notebook)
+        {
+            if (notebook != null)
+            {
+                DatabaseHelper.Delete(notebook);
+                ReadNotebooks();
+            }
+
+        }
+        public void DeleteNote(Note note)
+        {
+            if (note != null)
+            {
+                DatabaseHelper.Delete(note);
+                ReadNotes();
+            }
+        }
 
         public void HasRenamed(Notebook notebook)
         {

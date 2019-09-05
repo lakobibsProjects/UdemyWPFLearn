@@ -30,7 +30,7 @@ namespace NotesApp.View
 
             List<double> fontSizes = new List<double>() { 8, 9, 10, 11, 12, 14, 16, 28, 48, 72 };
             fontSizeComboBox.ItemsSource = fontSizes;
-            viewModel = new NotesVM();
+            viewModel = this.Resources["vm"] as NotesVM;
             container.DataContext = viewModel;
             viewModel.SelectedNotedChanged += ViewModel_SelectionChanged;
 
@@ -39,13 +39,21 @@ namespace NotesApp.View
         private void ViewModel_SelectionChanged(object sender, EventArgs e)
         {
             contentRichTextBox.Document.Blocks.Clear();
-            if (!string.IsNullOrEmpty(viewModel.SelectedNote.FileLocation))
+            try
             {
-                FileStream fileStream = new FileStream(viewModel.SelectedNote.FileLocation, FileMode.Open);
-                TextRange range = new TextRange(contentRichTextBox.Document.ContentStart, contentRichTextBox.Document.ContentEnd);
-                range.Load(fileStream, DataFormats.Rtf);
+                if (viewModel.SelectedNote != null)
+                {
+                    if (!string.IsNullOrEmpty(viewModel.SelectedNote.FileLocation))
+                    {                                                
+                        FileStream fileStream = new FileStream(viewModel.SelectedNote.FileLocation, FileMode.Open);
+                        TextRange range = new TextRange(contentRichTextBox.Document.ContentStart, contentRichTextBox.Document.ContentEnd);
+                        range.Load(fileStream, DataFormats.Rtf);
+                    }
+
+                }
             }
-            
+            catch (Exception) { } //TODO handle this Exception
+
         }
 
         private void ContentRichTextBox_TextChanged(object sender, TextChangedEventArgs e)
@@ -144,6 +152,11 @@ namespace NotesApp.View
             range.Save(fileStream, DataFormats.Rtf);
             
             viewModel.UpdateSelectedNote();
+        }
+
+        private void TextBox_KeyDown(object sender, System.Windows.Input.KeyEventArgs e)
+        {
+
         }
     }
 }
