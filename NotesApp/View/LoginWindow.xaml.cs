@@ -45,5 +45,10 @@ namespace NotesApp.View
             registerStackPanel.Visibility = Visibility.Visible;
             loginStackPanel.Visibility = Visibility.Collapsed;
         }
+
+        protected override void OnClosing(System.ComponentModel.CancelEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
     }
 }
